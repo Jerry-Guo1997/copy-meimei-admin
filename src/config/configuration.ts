@@ -40,6 +40,7 @@ export interface IConfig {
 
   redis?: {
     config: {
+      type: string;
       url: string;
     };
   };

@@ -19,6 +19,7 @@ export default defineConfig({
 
   redis: {
     config: {
+      type: 'single',
       url: 'redis://:123456@192.168.32.132:6379/0',
     },
   },
